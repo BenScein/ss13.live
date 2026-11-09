@@ -1,0 +1,6 @@
+#touch-pad{position:fixed;right:8px;bottom:14%;z-index:50;display:flex;flex-direction:column;align-items:center;gap:6px;user-select:none;-webkit-user-select:none;touch-action:none}
+#touch-pad button{width:52px;height:52px;border:1px solid #fff8;border-radius:10px;background:#000a;color:#fff;font:bold 18px sans-serif;padding:0;cursor:pointer;touch-action:none;-webkit-tap-highlight-color:transparent}
+#touch-pad button.on,#touch-pad button:active{background:#39c}
+#touch-pad .row{display:flex;gap:6px}
+#touch-pad .mouse{width:79px;font-size:14px}
+#touch-pad #tp-fs{width:166px;height:40px;font-size:14px}
